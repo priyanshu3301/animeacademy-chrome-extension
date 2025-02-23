@@ -1,0 +1,19 @@
+[ {
+    "id": 1,
+    "priority": 1,
+    "action": {
+    "type": "modifyHeaders",
+    "requestHeaders": [
+      {
+        "header": "Referer",
+        "operation": "set",
+        "value": "https://go.primeurl.in/"
+      }
+        ]
+      },
+    "condition": {
+        "urlFilter": "https://aatdl.xyz/archives/*",
+        "resourceTypes": ["main_frame"]
+      }
+  }
+] 
